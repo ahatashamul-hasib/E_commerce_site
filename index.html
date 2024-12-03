@@ -1,0 +1,134 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+
+    <!-- font awesome -->
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.6.0/css/all.min.css"
+      integrity="sha512-Kc323vGBEqzTmouAECnVceyQqyqdsSiqLQISBL29aUW4U/M7pSPA/gEUZQqv1cwx4OnYxTxve5UMg5GT6L4JJg=="
+      crossorigin="anonymous"
+      referrerpolicy="no-referrer"
+    />
+
+    <link rel="stylesheet" href="./style.css" />
+  </head>
+
+  <body>
+    <!-- Header start  -->
+
+    <header>
+      <nav class="menu">
+        <div class="left-menu">
+          <div class="left-menu-logo">
+            <img src="./assets/logo/logo.svg" alt="Sneakers logo" />
+          </div>
+          <div>
+            <div class="left-menu-items">
+              <ul>
+                <li><a href="#">Collections</a></li>
+                <li><a href="#">Men</a></li>
+                <li><a href="#">Women</a></li>
+                <li><a href="#">About</a></li>
+                <li><a href="#">Contact</a></li>
+              </ul>
+            </div>
+          </div>
+        </div>
+        <div class="right-menu">
+          <div class="right-menu-icon">
+            <img src="./assets/icon/icon-cart.svg" alt="Cart image" />
+          </div>
+          <div class="right-menu-avater">
+            <img src="./assets/img/image-avatar.png" alt="Avatar image" />
+          </div>
+        </div>
+      </nav>
+    </header>
+
+    <!-- Header end -->
+
+    <!-- main start  -->
+
+    <main>
+      <section class="product-wraper">
+        <div class="product-img-wraper">
+          <div class="main-img">
+            <img src="./assets/img/image-product-1.jpg" alt="" />
+          </div>
+
+          <div class="thumbnail-wraper">
+            <div class="thumbnail-img first-img">
+              <img src="./assets/img/image-product-1.jpg" alt="" />
+            </div>
+            <div class="thumbnail-img">
+              <img src="./assets/img/image-product-2-thumbnail.jpg" alt="" />
+            </div>
+            <div class="thumbnail-img">
+              <img src="./assets/img/image-product-3-thumbnail.jpg" alt="" />
+            </div>
+            <div class="thumbnail-img">
+              <img src="./assets/img/image-product-4-thumbnail.jpg" alt="" />
+            </div>
+          </div>
+        </div>
+
+        <div class="product-details-wraper">
+          <div class="text-wraper">
+            <h3>Sneaker Company</h3>
+
+            <h1>
+              Fall Limited Edition <br />
+              Sneaker
+            </h1>
+
+            <p>
+              These low-profile sneakers are your perfect casual wear <br />
+              compaion. Featuring a durable rubber outer sole, they'll <br />
+              withstand everything the weather can offer.
+            </p>
+          </div>
+          <div class="product-price">
+            <span class="current-price">&dollar;125.00</span>
+            <span class="discount-percent">50&percnt;</span>
+          </div>
+
+          <div class="befor-discount">
+            <span><del>&dollar;250.00</del></span>
+          </div>
+
+          <!-- btn part  -->
+
+          <div class="btn">
+            <div class="btn-right">
+              <div class="amount-btn">
+                <button type="button" class="minus-btn">
+                  <i class="fa-solid fa-minus"></i>
+                </button>
+                
+                <p>0</p>
+                
+                <button type="button" class="plus-btn">
+                  <i class="fa-solid fa-plus"></i>
+                </button>
+                
+              </div>
+            </div>
+
+            <div class="btn-left">
+              <button type="button" class="cart-btn">
+                <i class="fa-solid fa-cart-shopping"></i>
+                <span class="cart-text">Add to Cart</span>
+              </button>
+            </div>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <!-- main end -->
+  </body>
+</html>
